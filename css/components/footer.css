@@ -1,0 +1,29 @@
+footer{
+	background-color: black;
+	position:absolute;
+	margin-top:215px;
+	width:100%;
+} 
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+}
+.footer ul{
+	list-style-type:none;
+	padding:0;
+	color:white;
+}
+.footer h3{
+	color: white;
+}
+.réseaux i{
+	padding:20px;
+	font-size: 3em;
+	color: white;
+
+}
+.footer i{
+	font-size:3em;
+	color: white;
+}

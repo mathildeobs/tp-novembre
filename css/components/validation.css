@@ -1,0 +1,15 @@
+.commande {
+	text-align: center;
+	margin-top:250px;
+}
+.commande h1{
+	font-size: 4em;
+}
+.commande p{
+	font-size: 3em;
+}
+.bouton-validation input{
+	background-color: black;
+	color:white;
+	width:200px;
+}

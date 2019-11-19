@@ -1,0 +1,22 @@
+.promotions{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.bloc2 h2{
+	text-align: center;
+}
+.cardshoes{
+	padding:30px;
+}
+.button{
+	background-color:black;
+	border-radius: 3px
+}
+.cardshoes a  {
+	padding: 10px;
+	color:white;
+}
+.description{
+	
+}

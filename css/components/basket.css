@@ -1,0 +1,75 @@
+.bloc-produit-nike{
+	display: flex;
+}
+.récaputalif{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.bouton-safe{
+	padding:10px;
+	border: 1px solid black;
+	display: flex;
+	align-items: : center;
+	justify-content: space-around;
+
+}
+.bouton-safe a{
+	color:black;
+}
+.prixtotal{
+	display: flex;
+	margin: 20px;
+	justify-content: space-between;
+}
+.prixtotal p{
+	font-size: 1.5em;
+	font-style: bold;
+}
+.bloc-produit-right{
+	margin-left: 15px;
+}
+.mon-panier{
+	background-color: #E6E4E4; 
+	width:500px;
+	padding:15px;
+	margin-right:20px;
+}
+.bloc-top-basket{
+	display: flex;
+	justify-content: center;
+
+}
+.bloc-droite-basket{
+	width:300px;
+	background-color: #E6E4E4;
+	padding: 10px;
+}
+.recapitulatif-price{
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+}
+.bouton-basket{
+	text-align: center;
+	background-color: #42b883;
+	padding:10px;
+	margin:50px 0;
+}
+.bouton-basket a{
+	color:white;
+}
+.bloc-bottom-basket{
+	margin: auto;
+	width:800px;
+
+}
+.classic{
+	background-color: #595252;
+	color:white;
+	padding:10px;
+}
+.img-paiement{
+	width:100%;
+	display: flex;
+}

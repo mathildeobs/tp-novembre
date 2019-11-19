@@ -1,0 +1,48 @@
+.container-produit{
+	display: flex;
+	justify-content: center;
+}
+.container-show h1{
+	padding-top: 70px ;
+	text-align: center;
+}
+.container-produit{
+	margin-top: 30px;
+}
+.bouton-show{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:10px;
+	background-color: #42b883;
+	margin-top:10px;
+	border-radius: 5px;
+}
+.bouton-show a{
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+
+}
+.infos-show{
+	padding-left: 30px
+}
+.infos-produit p{
+	font-size: 2em;
+
+}
+.container-deux{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin:	auto;
+	width:1200px;
+}
+.information-produit{
+	width: 300px;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+#carouselExampleFade{
+	width:30%;
+}

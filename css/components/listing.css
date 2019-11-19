@@ -1,0 +1,52 @@
+.listing-h1{
+	padding-top: 70px;
+	text-align:center;
+}
+.button-choix div{
+	background-color: white;
+	border-radius: 3px;
+	margin-left:20px;
+	border:1px solid black;
+	padding:5px;
+	width:200px;
+	margin-top:35px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+#bouton-selection{
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.fas{
+	padding-left:5px;
+}
+.carte{
+	width:300px;
+}
+.bouton-carte{
+	border:1px solid black;
+	padding:10px;
+}
+.carte a{
+	color:black;
+}
+.ligne-carte{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 40px;
+}
+.container-listing{
+	display: flex;
+}
+.bloc-listing{
+	display: flex;
+	justify-content: space-around;
+}
+.dropdown{
+	margin-bottom: 10px;
+}
+

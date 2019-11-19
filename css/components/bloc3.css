@@ -1,0 +1,12 @@
+.bloc3{
+	padding-top:90px;
+}
+.bloc3 h3{
+	text-align:center;
+}
+
+.image-look{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

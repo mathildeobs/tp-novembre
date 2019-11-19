@@ -1,0 +1,35 @@
+.formulaire{
+	border-radius:10px;
+	width:400px;
+	background-color: #E6E4E4;
+}
+.formulaire2{
+	background-color: #E6E4E4;
+	border-radius:10px;
+	width: 300px;
+	margin-left:15px;
+	padding: 15px;
+
+}
+.nom{
+	margin:15px;
+}
+.bouton input{
+	background-color:grey;
+	border-radius:5px;
+	margin:0 0 20px 20px;
+	right:0;
+	position:relative;
+	left:60%;
+}
+.valider-paiment{
+	margin-top:70px;
+	text-align: center;
+}
+#nom{
+	width: 100%;
+}
+.separation{
+	display:flex;
+	justify-content:center;
+}

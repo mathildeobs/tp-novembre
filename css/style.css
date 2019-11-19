@@ -1,0 +1,138 @@
+@import url("components/nav.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/bloc3.css");
+@import url("components/listing.css");
+@import url("components/show.css");
+@import url("components/arianne.css");
+@import url("components/basket.css");
+@import url("components/form.css");
+@import url("components/footer.css");
+@import url("components/validation.css");
+
+
+
+*{
+	box-sizing: border-box;
+}
+body{
+	height: 100%;
+	margin:auto;
+}
+.parallax{
+	background-image: url("../img/shoes.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	min-height: 850px;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.bloc-titreh1{
+	position:static;
+	padding-top:160px ;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction: column;
+
+}
+
+
+@media all and (max-width:1200px){
+.promotions{
+	display: flex;
+	flex-direction: column;
+	}
+.image-look{
+	display: flex;
+	flex-direction: column;
+	}
+.image-look img{
+	padding-bottom: 10px;
+	}
+.blocsearch input{
+	display: none;
+}
+.header{
+	display: none;
+}
+#menuburger{
+	display:block;
+}
+.ligne-carte{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.footer{
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+}
+.réseaux h3{
+	text-align: center;
+	margin-top: 10px;
+}
+.carte{
+	padding-bottom: 30px;
+}
+#bouton-selection{
+	display: flex;
+	flex-direction: column;
+}
+
+.container-produit{
+	display: flex;
+	flex-direction: column;
+}
+.container-deux{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+#carouselExampleFade{
+	width:100%;
+}
+.separation{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.formulaire{
+	margin:0;
+	width:100%;
+}
+.formulaire2{
+	margin:15px 0 ;
+	width: 100%;
+}
+.bloc-top-basket{
+	display: flex;
+	flex-direction: column;
+}
+.bloc-bottom-basket{
+	width: 100%;
+	margin:0;
+}
+.bloc-droite-basket{
+	width: 100%;
+}
+.mon-panier{
+	width: 100%;
+	margin:0;
+}
+.prix-total{
+	position: relative;
+	left:0;
+
+}
+.commande{
+	width:100%;
+	left: 0;
+    top: 0;
+    margin-left: 0;
+    margin-top: 70px;
+}
+}
